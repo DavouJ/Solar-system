@@ -2,10 +2,10 @@
 
 public class Moon {
     SolarSystem screen;
-    double distance, angle, diameter;
+    double distance, angle, diameter, speed;
     String col;
-    int speed;
-    public Moon(SolarSystem screen, double distance, double angle, double diameter, String col, double centreOfRotationDistance, double centreOfRotationAngle, int speed){
+    
+    public Moon(SolarSystem screen, double distance, double angle, double diameter, String col, double centreOfRotationDistance, double centreOfRotationAngle, double speed){
         this.screen = screen;
         this.distance = distance;
         this.angle = angle;

@@ -2,10 +2,10 @@
 
 public class Planet {
 SolarSystem screen;
-double distance, angle, diameter;
+double distance, angle, diameter, speed;
 String col;
-int speed;
-    public Planet(SolarSystem screen, double distance, double angle, double diameter, String col, int speed){
+
+    public Planet(SolarSystem screen, double distance, double angle, double diameter, String col, double speed){
         this.screen = screen;
         this.distance = distance;
         this.angle = angle;
